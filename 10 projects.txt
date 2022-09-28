@@ -1,0 +1,56 @@
+Countdown Timer
+Design: https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-
+future date
+timer
+
+Quiz App
+Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
+questions from obj
+select answer
+at the end show score
+
+Recipe App
+Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
+recipe info on click
+fav recipe (w/ localStorage)
+
+Notes App
+Design: https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db
+CRUD note
+markdown
+localStorage
+
+ToDo App
+Design: https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW
+CRUD todos
+localStorage
+
+Movie App
+Design: https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X
+list of movies
+movie info
+fav movie
+actors
+
+GitHub Profiles App
+Design: https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6
+search for user
+get and show data
+
+Drawing App
+canvas
+size
+color
+
+Password Generator
+Design: https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh
+numbers
+letters
+symbols
+copy to clipboard
+
+Weather App
+Design: https://uidesigndaily.com/posts/photoshop-weather-prognosis-day-156
+enter location
+get weather
+have some icons?

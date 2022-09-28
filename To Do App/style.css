@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(236, 9%, 61%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: hsl(235, 19%, 35%);
+}
+
+header {
+    position: absolute;
+    height: 12rem;
+    background-color: hsl(235, 19%, 35%);
+    margin-top: -30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 0;
+    max-width: 100%;
+    width: 25rem;
+    z-index: 1;
+    position: fixed;
+    top: 11.5rem;
+}
+
+input, ul, li {
+    background-color: hsl(236, 33%, 92%);
+    width: 100%;
+    padding: 1rem;
+    color: hsl(237, 14%, 26%);
+    font-size: 1rem;
+    border: 2px solid hsl(233, 14%, 35%);
+    border-radius: 7px;
+}
+
+input[type="text"]  {
+    position: absolute;
+    display: block;
+    margin-top: -4rem;
+    border: 2px solid hsl(235, 24%, 19%);
+}
+
+input[type="text"]::placeholder {
+    color: hsl(237, 14%, 26%);
+}
+
+ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    max-height: 50vh;
+}
+
+ul > hr:last-child{
+    display: none;
+}
+
+li {
+    display: flex;
+    border: none;
+    border-radius: 7px;
+    align-items: baseline; 
+}
+
+li:hover {
+    background-color: hsl(234, 39%, 85%);
+}
+
+label {
+    width: 1000%;
+    line-break: anywhere;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+}
+
+
+nav {
+    background-color: hsl(234, 39%, 85%);
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0 0 7px 7px;
+}
+
+.section {
+    display: flex;
+    gap: .5rem;
+}
+
+nav p {
+    color: hsl(236, 9%, 61%);
+}
+
+nav a:hover {
+    color: hsl(236, 33%, 92%);
+}
+
+.section a:active {
+    color: hsl(237, 14%, 26%);
+}
